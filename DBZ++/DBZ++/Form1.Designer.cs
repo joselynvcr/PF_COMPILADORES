@@ -41,6 +41,9 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnAbrirArchivo = new System.Windows.Forms.Button();
+            this.btnMakeFile = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTokens)).BeginInit();
             this.SuspendLayout();
@@ -63,13 +66,13 @@
             this.txtCodFuente.Name = "txtCodFuente";
             this.txtCodFuente.Size = new System.Drawing.Size(479, 709);
             this.txtCodFuente.TabIndex = 2;
-            this.txtCodFuente.Text = "per{x=0.x<<1.x++}[\ncomplit a=10.\n]";
+            this.txtCodFuente.Text = "";
             this.txtCodFuente.TextChanged += new System.EventHandler(this.txtSourceCode_TextChanged);
             // 
             // btnCompilar
             // 
             this.btnCompilar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCompilar.Location = new System.Drawing.Point(522, 323);
+            this.btnCompilar.Location = new System.Drawing.Point(522, 614);
             this.btnCompilar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCompilar.Name = "btnCompilar";
             this.btnCompilar.Size = new System.Drawing.Size(96, 37);
@@ -110,7 +113,7 @@
             // BtnLexico
             // 
             this.BtnLexico.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BtnLexico.Location = new System.Drawing.Point(522, 262);
+            this.BtnLexico.Location = new System.Drawing.Point(522, 118);
             this.BtnLexico.Name = "BtnLexico";
             this.BtnLexico.Size = new System.Drawing.Size(96, 39);
             this.BtnLexico.TabIndex = 20;
@@ -162,11 +165,37 @@
             this.Column4.HeaderText = "COLUMNA";
             this.Column4.Name = "Column4";
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnAbrirArchivo
+            // 
+            this.btnAbrirArchivo.Location = new System.Drawing.Point(522, 399);
+            this.btnAbrirArchivo.Name = "btnAbrirArchivo";
+            this.btnAbrirArchivo.Size = new System.Drawing.Size(106, 38);
+            this.btnAbrirArchivo.TabIndex = 21;
+            this.btnAbrirArchivo.Text = "OPEN FILE";
+            this.btnAbrirArchivo.UseVisualStyleBackColor = true;
+            this.btnAbrirArchivo.Click += new System.EventHandler(this.btnAbrirArchivo_Click);
+            // 
+            // btnMakeFile
+            // 
+            this.btnMakeFile.Location = new System.Drawing.Point(522, 460);
+            this.btnMakeFile.Name = "btnMakeFile";
+            this.btnMakeFile.Size = new System.Drawing.Size(106, 53);
+            this.btnMakeFile.TabIndex = 22;
+            this.btnMakeFile.Text = "MAKE A COMPILED FILE";
+            this.btnMakeFile.UseVisualStyleBackColor = true;
+            this.btnMakeFile.Click += new System.EventHandler(this.btnMakeFile_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1161, 741);
+            this.Controls.Add(this.btnMakeFile);
+            this.Controls.Add(this.btnAbrirArchivo);
             this.Controls.Add(this.BtnLexico);
             this.Controls.Add(this.dgvTokens);
             this.Controls.Add(this.dataGridView1);
@@ -198,5 +227,8 @@
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
+        private OpenFileDialog openFileDialog1;
+        private Button btnAbrirArchivo;
+        private Button btnMakeFile;
     }
 }
