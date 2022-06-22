@@ -1,0 +1,36 @@
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.AssemblyReference.cache
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Form1.resources
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.GenerateResource.cache
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfoInputs.cache
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfo.cs
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.CoreCompileInputs.cache
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.exe
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.deps.json
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.runtimeconfig.json
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.dll
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.pdb
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.dll
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\refint\DBZ++.dll
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll
+C:\Users\Bryan Rojas\source\repos\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Properties.Resources.resources
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.exe
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.deps.json
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.runtimeconfig.json
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.dll
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.pdb
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.AssemblyReference.cache
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Form1.resources
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Properties.Resources.resources
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.GenerateResource.cache
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfoInputs.cache
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfo.cs
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.CoreCompileInputs.cache
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.dll
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\refint\DBZ++.dll
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
+D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll
