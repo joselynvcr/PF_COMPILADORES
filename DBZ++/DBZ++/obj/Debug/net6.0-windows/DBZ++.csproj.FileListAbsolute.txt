@@ -34,3 +34,21 @@ D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYE
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.exe
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.deps.json
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.runtimeconfig.json
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.dll
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.pdb
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Form1.resources
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.dll
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\refint\DBZ++.dll
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll

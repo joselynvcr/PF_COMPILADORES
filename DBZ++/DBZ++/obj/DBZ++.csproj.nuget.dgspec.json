@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj": {}
   },
   "projects": {
-    "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj",
         "projectName": "DBZ++",
-        "projectPath": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj",
-        "packagesPath": "C:\\Users\\Joselyn\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\PF_COMPILADORES\\DBZ++\\DBZ++\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joselyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
