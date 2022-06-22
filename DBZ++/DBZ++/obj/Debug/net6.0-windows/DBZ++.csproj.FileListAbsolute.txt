@@ -34,3 +34,21 @@ D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYE
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
 D:\UPN-CICLOS-ARCHIVOS\VII CICLO\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\PROYECTO\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.exe
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.deps.json
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.runtimeconfig.json
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.dll
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\bin\Debug\net6.0-windows\DBZ++.pdb
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.AssemblyReference.cache
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Form1.resources
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ__.Properties.Resources.resources
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.GenerateResource.cache
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfoInputs.cache
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.AssemblyInfo.cs
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.csproj.CoreCompileInputs.cache
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.dll
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\refint\DBZ++.dll
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.pdb
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\DBZ++.genruntimeconfig.cache
+D:\PROYECTOS-GITHUB\PF_COMPILADORES\DBZ++\DBZ++\obj\Debug\net6.0-windows\ref\DBZ++.dll

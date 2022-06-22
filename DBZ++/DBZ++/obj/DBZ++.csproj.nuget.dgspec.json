@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj": {}
+    "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj": {}
   },
   "projects": {
-    "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj": {
+    "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj",
+        "projectUniqueName": "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj",
         "projectName": "DBZ++",
-        "projectPath": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\DBZ++.csproj",
+        "projectPath": "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES\\DBZ++\\DBZ++\\DBZ++.csproj",
         "packagesPath": "C:\\Users\\Joselyn\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN-CICLOS-ARCHIVOS\\VII CICLO\\COMPILADORES Y LENGUAJES DE PROGRAMACIÓN\\PROYECTO\\DBZ++\\DBZ++\\obj\\",
+        "outputPath": "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES\\DBZ++\\DBZ++\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

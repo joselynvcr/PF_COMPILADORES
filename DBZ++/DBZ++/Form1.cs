@@ -245,5 +245,27 @@ namespace DBZ__
 
 
         }
+       
+        private void btnAbrirArchivo_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.InitialDirectory = "D:\\PROYECTOS-GITHUB\\PF_COMPILADORES";//busco el archivo
+            openFileDialog1.Filter = "Archivos (*.dbz) | *.dbz";
+            openFileDialog1.RestoreDirectory = true; //regresa al directorio original
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                String fullPathFile = openFileDialog1.FileName;     //guardamos la ruta          
+                Stream streamFile = openFileDialog1.OpenFile();//abrimos el archivo
+                StreamReader streamReadFile = new StreamReader(streamFile);//leemos el archivo 
+                txtCodFuente.Text = streamReadFile.ReadToEnd();//contenido completo del archivo                
+            }
+        }
+
+        private void btnMakeFile_Click(object sender, EventArgs e)
+        {
+            StreamWriter compiledFile = new StreamWriter(openFileDialog1.FileName + ".cs");//abrimos el archivo en modo escritura
+            compiledFile.Write(txtCodFuente.Text);
+            compiledFile.Close();
+            MessageBox.Show("Se creó el archivo compilado => " +openFileDialog1.FileName + ".cs");
+        }
     }
 }
