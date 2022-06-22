@@ -63,15 +63,19 @@ namespace DBZ__
 
             String strValFunction = @"(?<bucle_for>[a-zA-Z]*)\s*(?<inicio_condicion>\{{0,1})(?<condicion>.*\+)\s*(?<fin_condicion>\}{0,1})(?<inicio_instruccion>\[{0,1})";
             Regex rxValFunction = new Regex(strValFunction, RegexOptions.Compiled | RegexOptions.Singleline);
-            
-            String strValVarDefinitions4 = @"^(?<tipo_variables>[a-zA-Z]*)\s*(?<nombre_variables>\w*)\s*(?<variable_comparacion>\={0,1})\s*(?<inicio_literal>\|{0,1})\s*(?<contenido_literal>[a-zA-Z0-9]*)\s*(?<fin_literal>\|{0,1})(?<fin_expresion>\.{0,1}$)";
-            Regex rxValVarDefinition4 = new Regex(strValVarDefinitions4, RegexOptions.Compiled | RegexOptions.Singleline);
 
             String strValVarDefinitions = @"(?<tipo_variable>[a-zA-Z]*)\s(?<variable>[a-zA-Z0-9]*)\s*(?<variable_comparacion>={0,1})\s*(?<valor_variable>[0-9]*)\s*(?<fin_expresion>\.{0,1})";
             Regex rxValVarDefinition = new Regex(strValVarDefinitions, RegexOptions.Compiled | RegexOptions.Singleline);
 
             String strValVarDefinitions3 = @"^.*(?<fin_instruccion>\]{0,1}).*";
             Regex rxValVarDefinition3 = new Regex(strValVarDefinitions3, RegexOptions.Compiled | RegexOptions.Singleline);
+
+            String strValVarDefinitions4 = @"^(?<tipo_variable>[a-zA-Z]*)\s*(?<nombre_variable>\w*)\s*(?<variable_comparacion>\={0,1})\s*(?<inicio_literal>\|{0,1})\s*(?<contenido_literal>[a-zA-Z0-9]*)\s*(?<fin_literal>\|{0,1})(?<fin_expresion>\.{0,1}$)";
+            Regex rxValVarDefinition4 = new Regex(strValVarDefinitions4, RegexOptions.Compiled | RegexOptions.Singleline);
+
+           
+
+            
 
             
 
@@ -90,8 +94,6 @@ namespace DBZ__
                 Match match4 = rxValVarDefinition4.Match(currentLine);
                 Match matchVarDef = rxValVarDefinition.Match(currentLine);
                 Match match3 = rxValVarDefinition3.Match(currentLine);
-                
-
 
                 GroupCollection groups = match.Groups;
 
@@ -106,34 +108,7 @@ namespace DBZ__
                     }                    
                     txtResult2.Text = messageValidate;
                 }
-                 else if (matchVarDef.Success)
-                {
-                    foreach (Group groupValid in matchVarDef.Groups )
-                    {
-                        if (groupValid.Value.Length == 0 && groupValid.Name.Length > 0 && groupValid.Name != "0")
-                        {
-                            messageValidate += Cont + " IF 2 Esta faltando un " + reservedWordTable(groupValid.Name) + "\n";
-                        }                        
-                    }                   
-                    txtResult2.Text = messageValidate;
-                }
-                else if (match3.Success)
-                {
-                    foreach (Group groupValid in groups)
-                    {
-                        
-                        //if ( groupValid.Value.Length == 0 && groupValid.Name.Length>0 && groupValid.Name!="0" )
-                        if (groupValid.Value.Length == 0 && groupValid.Name.Length > 0 &&  groupValid.Name != "0") 
-                        {
-                            messageValidate += Cont +  " Falta " + reservedWordTable(groupValid.Name) + groupValid.Value+"\n";                            
-                        }
-
-                    }
-
-                    txtResult2.Text = messageValidate;
-                }
-              
-                if (match4.Success)
+                else if (match4.Success)
                 {
                     foreach (Group groupValid in groups)
                     {
@@ -148,7 +123,32 @@ namespace DBZ__
 
                     txtResult2.Text = messageValidate;
                 }
+               if (matchVarDef.Success)
+                {
+                    foreach (Group groupValid2 in matchVarDef.Groups )
+                    {
+                        if (groupValid2.Value.Length == 0 && groupValid2.Name.Length > 0 && groupValid2.Name != "0")
+                        {
+                            messageValidate += Cont + " IF 2 Esta faltando un " + reservedWordTable(groupValid2.Name) + "\n";
+                        }                        
+                    }                   
+                    txtResult2.Text = messageValidate;
+                }
+               else if (match3.Success)
+                {
+                    foreach (Group groupValid in groups)
+                    {
+                        
+                        //if ( groupValid.Value.Length == 0 && groupValid.Name.Length>0 && groupValid.Name!="0" )
+                        if (groupValid.Value.Length == 0 && groupValid.Name.Length > 0 &&  groupValid.Name != "0") 
+                        {
+                            messageValidate += Cont +  " Falta " + reservedWordTable(groupValid.Name) + groupValid.Value+"\n";                            
+                        }
 
+                    }
+
+                    txtResult2.Text = messageValidate;
+                }
                 else 
                 {
                     //txtResultList.Items.Add("Funcion Error" + currentLine);
@@ -169,7 +169,7 @@ namespace DBZ__
         private void button1_Click(object sender, EventArgs e)
         {
             String CodFuente= txtCodFuente.Text;            
-            String strPatron2 = @"(?<tipo_variable>[a-zA-Z0-9]+)\s*(?<nombre_variable>[a-zA-Z0-9]+)\s*(?<variable_comparacion>\=)\s*(?<valor_variable>\d+)(?<fin_expresion>\.)";
+            /*String strPatron2 = @"(?<tipo_variable>[a-zA-Z0-9]+)\s*(?<nombre_variable>[a-zA-Z0-9]+)\s*(?<variable_comparacion>\=)\s*(?<valor_variable>\d+)(?<fin_expresion>\.)";*/
 
             String strPatron = @"(?<bucle_for>[a-zA-Z]*)\s*(?<inicio_condicion>\{{0,1})(?<condicion>.*\+)\s*(?<fin_condicion>\}{0,1})(?<inicio_instruccion>\[{0,1})\n*(?<tipo_variable>\w*)\s*(?<nombre_variable>\w+)\s*(?<variable_comparacion>\=)\s*(?<valor_variable>\d+)(?<fin_expresion>\.)\n*\s*(?<fin_instruccion>\])";
 
@@ -177,12 +177,12 @@ namespace DBZ__
 
 
             Regex rx = new Regex(strPatron, RegexOptions.Compiled | RegexOptions.Multiline);
-            Regex rx2 = new Regex(strPatron2, RegexOptions.Compiled | RegexOptions.Multiline);
+           // Regex rx2 = new Regex(strPatron2, RegexOptions.Compiled | RegexOptions.Multiline);
             Regex rx3 = new Regex(strPatron3, RegexOptions.Compiled | RegexOptions.Multiline);
 
 
             MatchCollection matches = rx.Matches(CodFuente);
-            MatchCollection matches2 = rx2.Matches(CodFuente);
+            //MatchCollection matches2 = rx2.Matches(CodFuente);
             MatchCollection matches3 = rx3.Matches(CodFuente);
 
 
@@ -206,7 +206,7 @@ namespace DBZ__
 
             }
 
-            foreach (Match matchItem2 in matches2)
+            /*foreach (Match matchItem2 in matches2)
             {
 
                 if (matchItem2.Success)
@@ -222,7 +222,7 @@ namespace DBZ__
                 {
                     MessageBox.Show("Expresion no válida", "Warning");
                 }
-            }
+            }*/
 
             foreach (Match matchItem3 in matches3)
             {
@@ -263,9 +263,25 @@ namespace DBZ__
         private void btnMakeFile_Click(object sender, EventArgs e)
         {
             StreamWriter compiledFile = new StreamWriter(openFileDialog1.FileName + ".cs");//abrimos el archivo en modo escritura
-            compiledFile.Write(txtCodFuente.Text);
+           // compiledFile.Write(txtCodFuente.Text);
+            MessageBox.Show("Se creó el archivo compilado => " + openFileDialog1.FileName + ".cs");
+            String salida;
+            salida = txtCodFuente.Text;
+            salida = salida.Replace("per", "for");
+            salida = salida.Replace("{", "(");
+            salida = salida.Replace(".", ";");
+            salida = salida.Replace("<<", "<");
+            salida = salida.Replace("}", ")");
+            salida = salida.Replace("complit", "int");
+            salida = salida.Replace("literal", "string");
+            salida = salida.Replace("[", "{");
+            salida = salida.Replace("]", "}");
+            salida = salida.Replace('|', '"');
+
+
+            compiledFile.Write(salida);
             compiledFile.Close();
-            MessageBox.Show("Se creó el archivo compilado => " +openFileDialog1.FileName + ".cs");
+            
         }
     }
 }
